@@ -188,8 +188,101 @@ img {
     bottom: var(--header-height);
 }
 
-/*===== Show Menu =====*/
+/*== Active menu link ==*/
 
+
+/*===== HOME =====*/
+
+.home {
+    position: relative;
+}
+
+.home__container {
+    gap: 2rem;
+}
+
+.home__data {
+    gap: .5rem;
+    text-align: center;
+}
+
+.home__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    justify-self: center;
+    margin-bottom: var(--mb-1);
+}
+
+.home__title {
+    font-size: var(--h1-font-size);
+}
+
+.home__profession {
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.home__address {
+    gap: 1rem;
+}
+
+.home__information {
+    display: flex;
+    align-items: center;
+    font-size: var(--small-font-size);
+}
+
+.home__icon {
+    font-size: 1.2rem;
+    margin-right: .25em;
+}
+
+.home__button-movil {
+    display: inline-block;
+    border: 2px solid var(--text-color);
+    color: var(--title-color);
+    padding: 0.5rem 1.5rem;
+    border-radius: .25rem;
+    transition: .3s;
+    font-weight: var(--font-medium);
+    margin-top: var(--mb-2);
+}
+
+.home__button-movil:hover {
+    background-color: var(--text-color);
+    color: var(--container-color);
+}
+
+
+/*===== SOCIAL =====*/
+
+.social__container {
+    grid-template-columns: max-content;
+    gap: 1rem;
+}
+
+.social__link {
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+}
+
+.social__link:hover {
+    color: var(--title-color);
+}
+
+.social__icon {
+    font-size: 1.2rem;
+    margin-right: .25rem;
+}
+
+/*===== PROFILE =====*/
+
+.profile__description {
+    text-align: center;
+}
 
 
 
