@@ -10,8 +10,9 @@
     --text-color: #403A3A;
     --text-color-light: #707070;
     --container-color: #FAFAFA;
-    --container-color-alt: #F0EFEF;
+    --container-color-alt: #bebebe;
     --body-color: #FCFCFC;
+    --footer-color: #FAFAFA;;
 
     /*===== Font and typography =====*/
     --body-font: 'Poppins', sans-serif;
@@ -53,6 +54,7 @@ body.dark-theme {
     --container-color: #212121;
     --container-color-alt: #181616;
     --body-color: #2B2B2B;
+    --footer-color: #212121;;
 }
 
 /*===== Button Dark/Light =====*/
@@ -215,9 +217,6 @@ img {
     bottom: var(--header-height);
 }
 
-/*== Active menu link ==*/
-
-
 /*===== HOME =====*/
 
 .home {
@@ -258,6 +257,15 @@ img {
     display: flex;
     align-items: center;
     font-size: var(--small-font-size);
+    color: var(--text-color);
+}
+
+.mail {
+    color: var(--text-color);
+}
+
+.mail:hover {
+    color: var(--title-color);
 }
 
 .home__icon {
@@ -399,6 +407,14 @@ img {
     margin-bottom: var(--mb-1);
 }
 
+.certificate__description {
+    color: var(--text-color);
+}
+
+.certificate__description:hover {
+    color: var(--title-color);
+}
+
 /*===== REFERENCES =====*/
 
 .references__content {
@@ -435,6 +451,41 @@ img {
     font-size: 1.5rem;
     color: var(--text-color-light);
     margin-bottom: .25rem;
+}
+
+/*===== FOOTER =====*/
+
+.footer {
+    padding: .5rem 0;
+}
+
+.footer__container {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.github__icon {
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.github__name, .footer__date {
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    margin: auto 0;
+}
+.github__icon:hover, .github__name:hover {
+    color: var(--title-color);
+}
+
+.rs__logo {
+    width: 70px;
+    height: 40px;
 }
 
 /*===== Scroll top =====*/
@@ -495,6 +546,11 @@ img {
         grid-template-columns: .5fr 1fr;
         background-color: var(--container-color);
         box-shadow: 0 0 8px rgba(13, 12, 12, .15);
+    }
+
+    .footer {
+        box-shadow: 0 0 8px rgba(13, 12, 12, .15);
+        background-color: var(--footer-color);
     }
 
     .resume__left {
