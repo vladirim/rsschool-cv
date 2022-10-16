@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive CV</title>
+</head>
+<body>
+
+    <!--===== HEADER =====-->
+
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">CV</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                        </a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Certificates
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#code-example" class="nav__link">
+                            <i class='bx bx-code-alt nav__icon'></i>Code
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#languages" class="nav__link">
+                            <i class='bx bx-chat nav__icon'></i>Languages
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#interests" class="nav__link">
+                            <i class='bx bx-universal-access nav__icon'></i>Interests
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <div class="resume">
+            <div class="resume__left">
+
+                <!--===== HOME =====-->
+
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="avatar-img.jpg" alt="Profile photo" class="home__img">
+                            
+                            <h1 class="home__title">LAMAKA <b>ULADZIMIR</b></h1>
+                            <h3 class="home__profession">Web developer</h3>    
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> New-York, NY
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon' ></i><a href="mailto:vladimir0lomako@gmail.com" class="mail">vladimir0lomako@gmail.com</a>
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> +1 (620)-331-28-52
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Dark/light theme button -->
+                    
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                <!--===== SOCIAL =====-->
+
+                <section class="social section">
+                    <h2 class="section-title">Social</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon' ></i> @linkedin
+                        </a>
+                        <a href="https://discordapp.com/users/673453329631805450/" target="_blank" class="social__link">
+                            <i class='bx bxl-discord-alt social__icon' ></i>@discord
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook-square social__icon' ></i> @facebook
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram-alt social__icon' ></i> @instagram
+                        </a>
+                    </div>
+                </section>
+                
+                <!--===== EDUCATION =====-->
+
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education_title">Bachelor of electrical engineering</h3>
+                                <span class="education__studies">BNTU</span>
+                                <span class="education__year">2015 - 2020</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education_title">Web Developer</h3>
+                                <span class="education__studies">RS School</span>
+                                <span class="education__year">2021 - Until now</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education_title">Front End Developer</h3>
+                                <span class="education__studies">Meta Front End Developer Professional Certificate</span>
+                                <span class="education__year">2022 - Until now</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--===== SKILLS =====-->
+
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> HTML
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> CSS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> JavaScript
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Git/Github
+                            </li>
+                        </ul>
+    
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> React
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Bootstrap
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+
+                <!--===== PROFILE =====-->
+
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">About me</h2>
+
+                    <p class="profile__description">I don’t have a lot of coding experience but i’m learning hard. Now I'm studying  JS and React, working on my English level and developing soft skills. </p>
+                </section>
+
+                <!--===== Code Example =====-->
+
+                <section class="code section" id="code-example">
+                    <h2 class="section-title">Code Example</h2>
+    
+                        <pre class="code-example">
+                            const showMenu = (toggleId, navId) => {
+                                const toggle = document.getElementById(toggleId),
+                                nav = document.getElementById(navId)
+                            
+                                if (toggle && nav) {
+                                    toggle.addEventListener('click', () => {
+                                        nav.classList.toggle('show-menu')
+                                    })
+                                }
+                            }
+                        </pre> 
+                </section>
+                
+
+                <!--===== EXPERIENCE =====-->
+
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <a target="_blank" href="#">
+                            <img class="project-img" src="CV.jpg" alt="Uladzimir Lamaka CV">
+                        </a>
+                    </div>
+                </section>
+
+                <!--===== CERTIFICATES =====-->
+
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">JS/FE PRE-SCHOOL 2022 (JAVASCRIPT)</h3>
+                            <a class="certificate__description" href="https://app.rs.school/certificate/6p2xdtf9" target="_blank">RS School certificate link</a>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Programming with JavaScript</h3>
+                            <a class="certificate__description" href="https://www.coursera.org/account/accomplishments/certificate/FJUYR3Z53MTA" target="_blank">Meta certificate link</a>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Version Control</h3>
+                            <a class="certificate__description" href="https://www.coursera.org/account/accomplishments/certificate/VU8BRYKHBKCT" target="_blank">Meta certificate link</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!--===== LANGUAGES =====-->
+
+                <section class="language section" id="language">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                            
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Belarusian
+                            </li>
+
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Russian
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--===== INTERESTS =====-->
+
+                <section class="interests section" id="interests">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-headphone interests__icon'></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-plane-alt interests__icon'></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-basketball interests__icon'></i>
+                            <span class="interests__name">Sports</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-book interests__icon'></i>
+                            <span class="interests__name">Read</span>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="l-main bd-container">
+        <section class="footer">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a target="_blank" href="https://github.com/vladirim">
+                        <i class='bx bxl-github github__icon'></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/vladirim">
+                        <span class="github__name">vladirim</span>
+                    </a>
+                </div>
+                <div class="footer__content">
+                    <span class="footer__date">oct. 2022</span>
+                </div>
+                <div class="footer__content">
+                    <a target="_blank" href="https://rs.school/js-en/">
+                        <img src="rs_school_logo.svg" alt="rs_school_logo" class="rs__logo">
+                    </a> 
+                </div>
+        </div>
+        </section>
+    </footer>
+
+    <!--===== SCROLL TOP =====-->
+
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+    </a>
+
+    <!--===== MAIN JS =====-->
+
+    <script src="main.js"></script>
+</body>
+</html>
