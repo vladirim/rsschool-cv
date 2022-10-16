@@ -10,7 +10,9 @@
     <title>Responsive CV</title>
 </head>
 <body>
+
     <!--===== HEADER =====-->
+
     <header class="l-header" id="header">
         <nav class="nav bd-container">
             <a href="#" class="nav__logo">CV</a>
@@ -52,16 +54,22 @@
                             <i class='bx bx-award nav__icon'></i>Certificates
                         </a>
                     </li>
-                    
+
                     <li class="nav__item">
-                        <a href="#references" class="nav__link">
-                            <i class='bx bx-link-external nav__icon'></i>References
+                        <a href="#code-example" class="nav__link">
+                            <i class='bx bx-code-alt nav__icon'></i>Code
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#languages" class="nav__link">
                             <i class='bx bx-chat nav__icon'></i>Languages
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#interests" class="nav__link">
+                            <i class='bx bx-universal-access nav__icon'></i>Interests
                         </a>
                     </li>
                 </ul>
@@ -76,7 +84,9 @@
     <main class="l-main bd-container">
         <div class="resume">
             <div class="resume__left">
+
                 <!--===== HOME =====-->
+
                 <section class="home" id="home">
                     <div class="home__container section bd-grid">
                         <div class="home__data bd-grid">
@@ -88,13 +98,13 @@
 
                         <div class="home__address bd-grid">
                             <span class="home__information">
-                                <i class='bx bx-map home__icon'></i> Seaside Heights, NJ
+                                <i class='bx bx-map home__icon'></i> New-York, NY
                             </span>
                             <span class="home__information">
                                 <i class='bx bx-envelope home__icon' ></i><a href="mailto:vladimir0lomako@gmail.com" class="mail">vladimir0lomako@gmail.com</a>
                             </span>
                             <span class="home__information">
-                                <i class='bx bx-phone home__icon'></i> +1 (732)-330-28-52
+                                <i class='bx bx-phone home__icon'></i> +1 (620)-331-28-52
                             </span>
                         </div>
                     </div>
@@ -109,17 +119,17 @@
                     <h2 class="section-title">Social</h2>
 
                     <div class="social__container bd-grid">
-                        <a href="https://www.linkedin.com/in/vladirim/" target="_blank" class="social__link">
-                            <i class='bx bxl-linkedin-square social__icon' ></i> @vladirim
+                        <a href="https://www.linkedin.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon' ></i> @linkedin
                         </a>
                         <a href="https://discordapp.com/users/673453329631805450/" target="_blank" class="social__link">
-                            <i class='bx bxl-discord-alt social__icon' ></i>@vladirim
+                            <i class='bx bxl-discord-alt social__icon' ></i>@discord
                         </a>
-                        <a href="https://www.facebook.com/lomako.vladi.rim" target="_blank" class="social__link">
-                            <i class='bx bxl-facebook-square social__icon' ></i> @lomako.vladi.rim
+                        <a href="https://www.facebook.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook-square social__icon' ></i> @facebook
                         </a>
-                        <a href="https://www.instagram.com/vladi.rim/" target="_blank" class="social__link">
-                            <i class='bx bxl-instagram-alt social__icon' ></i> @vladi.rim
+                        <a href="https://www.instagram.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram-alt social__icon' ></i> @instagram
                         </a>
                     </div>
                 </section>
@@ -157,7 +167,6 @@
                         <div class="education__content">
                             <div class="education__time">
                                 <span class="education__rounder"></span>
-                                <!--<span class="education__line"></span>-->
                             </div>
 
                             <div class="education__data bd-grid">
@@ -214,50 +223,35 @@
                     <p class="profile__description">I don’t have a lot of coding experience but i’m learning hard. Now I'm studying  JS and React, working on my English level and developing soft skills. </p>
                 </section>
 
+                <!--===== Code Example =====-->
+
+                <section class="code section" id="code-example">
+                    <h2 class="section-title">Code Example</h2>
+    
+                        <pre class="code-example">
+                            const showMenu = (toggleId, navId) => {
+                                const toggle = document.getElementById(toggleId),
+                                nav = document.getElementById(navId)
+                            
+                                if (toggle && nav) {
+                                    toggle.addEventListener('click', () => {
+                                        nav.classList.toggle('show-menu')
+                                    })
+                                }
+                            }
+                        </pre> 
+                </section>
+                
+
                 <!--===== EXPERIENCE =====-->
 
                 <section class="experience section" id="experience">
                     <h2 class="section-title">Experience</h2>
 
                     <div class="experience__container bd-grid">
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <span class="experience__line"></span>
-                            </div>
-
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">HTML/CSS Developer</h3>
-                                <span class="experience__company">2018 - 2019 | First company</span>
-                                <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias incidunt ab quaerat eaque exercitationem.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <span class="experience__line"></span>
-                            </div>
-
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title"> WEB Developer</h3>
-                                <span class="experience__company">2019 - 2020 | Second company</span>
-                                <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias incidunt ab quaerat eaque exercitationem.</p>
-                            </div>
-                        </div>
-
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <!--<span class="experience__line"></span>-->
-                            </div>
-
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">Front End Developer</h3>
-                                <span class="experience__company">2020 - 2022 | Third company</span>
-                                <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias incidunt ab quaerat eaque exercitationem.</p>
-                            </div>
-                        </div>
+                        <a target="_blank" href="#">
+                            <img class="project-img" src="CV.jpg" alt="Uladzimir Lamaka CV">
+                        </a>
                     </div>
                 </section>
 
@@ -284,32 +278,6 @@
                     </div>
                 </section>
 
-                <!--===== REFERENCES 
-
-                <section class="references section" id="references">
-                    <h2 class="section-title">References</h2>
-
-                    <div class="references__container bd-grid">
-                        <div class="references__content bd-grid">
-                            <span class="references__subtitle">Sr. Director</span>
-                            <h3 class="references__title">Mr. John Doe</h3>
-                            <ul class="references__contact">
-                                <li>Phone: +1 (600) 111-22-33</li>
-                                <li>Email: user1@mail.com</li>
-                            </ul>
-                        </div>
-
-                        <div class="references__content bd-grid">
-                            <span class="references__subtitle">Developer</span>
-                            <h3 class="references__title">Mr. Rob Black</h3>
-                            <ul class="references__contact">
-                                <li>Phone: +1 (600) 222-33-11</li>
-                                <li>Email: user2@mail.com</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section> =====-->
-
                 <!--===== LANGUAGES =====-->
 
                 <section class="language section" id="language">
@@ -334,7 +302,7 @@
 
                 <!--===== INTERESTS =====-->
 
-                <section class="interests section">
+                <section class="interests section" id="interests">
                     <h2 class="section-title">Interests</h2>
 
                     <div class="interests__container bd-grid">
@@ -363,6 +331,7 @@
             </div>
         </div>
     </main>
+
     <footer class="l-main bd-container">
         <section class="footer">
             <div class="footer__container bd-grid">
@@ -393,6 +362,7 @@
     </a>
 
     <!--===== MAIN JS =====-->
+
     <script src="main.js"></script>
 </body>
 </html>
