@@ -170,7 +170,7 @@ img {
         border-radius: 1rem 1rem 0 0;
         z-index: var(--z-fixed);
         transition: .3s;
-    }    
+    }
 }
 
 .nav__logo,
@@ -443,6 +443,7 @@ img {
 }
 
 .github__icon {
+    margin-left: 1rem;
     font-size: 1.5rem;
     color: var(--text-color);
 }
@@ -472,6 +473,7 @@ img {
     align-items: center;
     padding: .3rem;
     background-color: var(--container-color-alt);
+    color: var(--text-color);
     border-radius: .4rem;
     z-index: var(--z-tooltip);
     transition: .4s;
