@@ -1,18 +1,20 @@
-# Curriculum Vitae
-## Vladimir Lomako
+# Uladzimir Lamaka
+## Junior Frontend Developer
 **Contacts:**
-* Phone: __+11234567890__
-* Email: __example1234567890@gmail.com__
-* Discord nickname: __vladirim__ 
+* Phone: __+17323302852__
+* Email: __vladimir0lomako@gmail.com__
+* Discord: __vladi.rim__
+* [LinkedIn](https://www.linkedin.com/in/vladirim/)
 
-_I don't have a lot of coding experience but i'm learning hard. I want to improve my skills and finish course with high score rating._
+Hey y'all. My name's Vlad. I'm passionate about web development. I'd be a good fit for your team as a Jr Frontend Developer. I have a variety of skills, such as JS, HTML/CSS, React and more. Now I'm honing skills in TypeScript and React, working on my English and developing soft skills.
 
 **Skills:**
-* HTML/CSS;
+* HTML5/CSS3;
 * JS;
-* React;
 * Git/Github;
+* React;
 * Bootstrap;
+* Figma;
 
 **Education:** BNTU, engineer electrician;
 
